@@ -1,3 +1,20 @@
+## 3.15.0
+
+* Adds macOS support.
+
+## 3.14.0
+
+* Adds Swift Package Manager compatibility.
+
+## 3.13.1
+
+* Fixes `JSON.stringify()` cannot serialize cyclic structures.
+
+## 3.13.0
+
+* Adds `decidePolicyForNavigationResponse` to internal WKNavigationDelegate to support the
+  `PlatformNavigationDelegate.onHttpError` callback.
+
 ## 3.12.0
 
 * Adds support for `setOnScrollPositionChange` method to the `WebKitWebViewController`.
@@ -75,7 +92,7 @@
 
 * Introduces `NSError.toString` for better diagnostics.
 
-## 3.6.2 
+## 3.6.2
 
 * Fixes unawaited_futures violations.
 
